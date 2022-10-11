@@ -1,0 +1,245 @@
+@font-face{
+font-family: 'fontfamily',cursive;
+src:url("../fonts/PermanentMarker-Regular.ttf") format("true type");
+
+}
+
+@font-face{
+    font-family:'peranta' , cursive ;
+    src: url("../fonts/Peralta-Regular.ttf") format("true type");
+
+}
+@font-face {
+    font-family: 'consert',cursive;
+    src: url("../fonts/concert-one.otf") format("open ture type");
+}
+
+/*
+element#id{
+    property:value;
+}*/
+
+div#p{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:black;
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    animation-delay: 0.1s;
+
+}
+div.b{
+     width: 300px;
+     height: 300px;
+     background: blue;
+     text-align: center;
+     line-height: 300px;
+     color: #fff;
+     font-size: 3em;
+     border-radius: 300px;
+     font-family: 'fontfamily',cursive;
+     animation-delay: 0.2s;
+     
+}
+
+div[data-y="y"]{
+
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 300px;
+    color: black;
+    line-height: 300px;
+    animation-delay:0.3s;
+    font-family: 'peranta',cursive ;
+}
+
+div.common{
+    animation-name:abc;
+    animation-duration:0.999s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes abc {
+    from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(1211px,0px);
+    }
+}
+
+div#a{
+    width: 300px;
+    height: 300px;
+    background:aquamarine;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:black;
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    animation-delay: 0.4s;
+
+}
+div.c{
+    width: 300px;
+    height: 300px;
+    background:chocolate;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    font-size: 3em;
+    border-radius: 300px;
+    animation-delay: 0.5s;
+    font-family: 'consert',cursive;
+}
+div[data-d="d"]{
+
+    width: 300px;
+    height: 300px;
+    background: dodgerblue;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 300px;
+    color: black;
+    line-height: 300px;
+    animation-delay:0.6s;
+    font-family: 'Playfair Display', serif;
+}
+div#h{
+    width: 300px;
+    height: 300px;
+    background: hotpink;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:black;
+    font-size: 3em;
+    animation-delay: 0.7s;
+    font-family: 'Noto Serif JP', serif;;
+}
+div.n{
+    width: 300px;
+    height: 300px;
+    background:navy;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    font-size: 3em;
+    border-radius: 300px;
+    animation-delay: 0.8s;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+div[data-s="s"]{
+
+    width: 300px;
+    height: 300px;
+    background: seagreen;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 300px;
+    color: #fff;
+    line-height: 300px;
+    animation-delay:0.9s;
+}
+div#t{
+    width: 300px;
+    height: 300px;
+    background: tomato;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:pink;
+    font-size: 3em;
+    animation-delay: 1.0s;
+}
+div.w{
+    width: 300px;
+    height: 300px;
+    background:wheat;
+    text-align: center;
+    line-height: 300px;
+    color:blue;
+    font-size: 3em;
+    border-radius: 300px;
+    animation-delay: 1.1s;
+}
+div[data-o="o"]{
+
+    width: 300px;
+    height: 300px;
+    background:orangered;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 300px;
+    color: rgb(48, 138, 187);
+    line-height: 300px;
+    animation-delay:1.2s;
+}
+div#m{
+    width: 300px;
+    height: 300px;
+    background: maroon;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:yellow;
+    font-size: 3em;
+    animation-delay: 1.3s;
+}
+div.l{
+    width: 300px;
+    height: 300px;
+    background:lime;
+    text-align: center;
+    line-height: 300px;
+    color:maroon;
+    font-size: 3em;
+    border-radius: 300px;
+    animation-delay: 1.4s;
+    font-family: 'Major Mono Display', monospace;
+}
+div[data-i="i"]{
+
+    width: 300px;
+    height: 300px;
+    background:indigo;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 300px;
+    color: yellowgreen;
+    line-height: 300px;
+    animation-delay:1.5s;
+}
+div#g{
+    width: 300px;
+    height: 300px;
+    background: gray;
+    border-radius: 300px;
+    text-align: center;
+    line-height:300px ;
+    color:white;
+    font-size: 3em;
+    animation-delay: 1.6s;
+    font-family: 'Noto Serif Telugu', serif;
+}
+div.f{
+    width: 300px;
+    height: 300px;
+    background:firebrick;
+    text-align: center;
+    line-height: 300px;
+    color:whitesmoke;
+    font-size: 3em;
+    border-radius: 300px;
+    animation-delay: 1.7s;
+}
